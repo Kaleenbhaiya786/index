@@ -1,0 +1,36 @@
+
+h1{
+	text-align: center;
+	background-color:skyblue;
+}
+html{
+	background-color: #B3B3B3;
+}
+a{
+	font-size: 200%;
+	background-color: skyblue;
+}
+nav{
+	text-align: center;
+	padding: 15px;
+}
+h2{
+	background-color: skyblue;
+}
+section{
+	width:30%;
+	display:inline-block;
+	float:left;
+	margin:5px;
+}
+footer{
+	clear: both;
+	background-color: #696969;
+}
+img{
+	width:125px;
+}
+footer a{
+	font-size: 20px;
+	background-color: #696969;
+}
