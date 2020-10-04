@@ -2,22 +2,35 @@
 html{
 	background-color: #B3B3B3;
 }
-a{
-	font-size: 200%;
-	background-color: skyblue;
-}
 nav{
 	text-align: center;
 	padding: 15px;
 }
+
 header{
 	text-align: center;
 	padding-bottom: 15px;
 }
 nav a{
 	display: inline-block;
-	width:20%;
-	background-color: #FFFFFF;
+	margin: 2%;
+	font-size: 200%;
+		
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+	border-radius: 5px;
+
+	text-decoration: none;
+	padding: 2%;
+
+	color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(218,234,213,0.60);
+	width:150px;
+	height: 20px;
+
 }
 .half{
 	width:35%;
@@ -27,6 +40,10 @@ nav a{
 }
 .whole{
 	clear:both;
+}
+a:hover{
+	background color: #696969;
+	color:#ffffff;
 }
 header,footer{
 	background: #666666;

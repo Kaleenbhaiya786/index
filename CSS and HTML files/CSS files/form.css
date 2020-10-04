@@ -1,0 +1,11 @@
+html{
+	background-image:url(../images/Desert.jpg);
+	background-size: 100%;
+}
+header,footer{
+	text-align: center;
+}
+.active{
+	margin-left: 38%;
+	width:50%;
+}
